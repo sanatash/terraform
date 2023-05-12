@@ -1,0 +1,24 @@
+# first command from terraform directory (Assignment8):
+terraform init
+
+# To plan what to do without actually applying
+terraform plan
+
+# after
+terraform apply
+
+# To plan what to do without actually applying
+terraform plan
+
+# finally to apply it, type - yes
+terraform apply
+
+# To run plan with file with specific for project variables values
+Terraform plan -var-file .\values.tfvars
+
+# Will show you what will be destroyed without destroing it yet
+terraform plan -destroy
+
+# finally to destroy it, type - yes
+terraform destroy
+
